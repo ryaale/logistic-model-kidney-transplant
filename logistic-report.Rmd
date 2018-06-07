@@ -1,7 +1,8 @@
 ---
 title: "Kidney Transplant success model"
-subtitle: "Alexander James Ryan r0693898"
+subtitle: "Alexander James Ryan"
 output: pdf_document
+date: "6 May 2018"
 toc: true
 toc_depth: 3
 ---
@@ -13,8 +14,7 @@ library(knitr)
 opts_chunk$set(echo=FALSE,
                cache=TRUE, autodep=TRUE, cache.comments=FALSE,
                message=FALSE, warning=FALSE)
-renal <- read_excel("~/Desktop/GLM/Assignment/GLM Solo Assignment/renal.xlsx")
-epilepsy <- read.table("~/Desktop/GLM/Assignment/GLM Solo Assignment/epilepsy.txt", header = TRUE)
+renal <- read_excel("~/Desktop/logistic-model-kidney-transplant/renal.xlsx")
 ```
 
 # Analysis Renal success
