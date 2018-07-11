@@ -1,4 +1,4 @@
-# Logistic model for Kidney transplant success
+# Logistic model for predicting Kidney transplant success
 ### 6 May 2018
 ## Introduction
 
